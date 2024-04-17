@@ -1,9 +1,10 @@
-const firstName = "Atikur";
-console.log(firstName);
+let character = 'mario';
+let age = 30;
+let isBlackBelt = false;
 
-const inputs = document.querySelectorAll("input");
-console.log(inputs);
 
-inputs.forEach(input => {
-    console.log(input);    
-});
+const circle = (diameter: number) => {
+    return diameter * Math.PI;
+}
+
+console.log(circle(10));
